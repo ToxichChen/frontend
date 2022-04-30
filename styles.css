@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 24px;
+    padding: 20px 0;
+    text-shadow: 1px 1px 4px grey;
+}
+
+.profile {
+    border-top: 1px solid grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.profile-email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.icons-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.icon-list__button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-style: none;
+    margin: 0 10px 0 10px;
+}
+
+.icon-list__i {
+    font-size: 20px;
+    color: rebeccapurple;
+}
+
+.icon-notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.tasks-progress {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.tasks-progress__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.tasks-progress__input {
+    width: 100%;
+}
+
+.tasks-info {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.tasks-info-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.tasks-info-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-info-list-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.tasks-info-list-status {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.tasks-info-list-substatus {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: grey;
+}
+
+.projects {
+    border-top: 1px solid grey;
+    padding: 20px 20px;
+}
+
+.projects-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #404040;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.projects-list {
+    list-style: none;
+}
+
+.projects-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projects-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.projects-list__circle {
+    width: 16px;
+    height: 16px;
+    border: 3px solid black;
+    display: block;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.projects-list__circle--light-purple {
+    border-color: mediumpurple;
+}
+
+.projects-list__circle--purple {
+    border-color: purple;
+}
+
+.projects-list__circle--yellow {
+    border-color: yellow;
+}
+
+.projects-list__circle--pink {
+    border-color: pink;
+}
+
+.projects-list-item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+
+.team {
+    border-top: 1px solid gray;
+    padding: 20px 20px;
+}
+
+.team-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #404040;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.team-list__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
